@@ -63,3 +63,63 @@ text-decoration: none;
 }
 
 
+
+/* design du card */
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+
+}
+.details{
+  color: #F2F2F2;
+}
+.img{
+  width: 100%;
+  height: 220px;
+}
+.img:hover{
+  transition: all 1s;
+  transform: scale(1.2);
+  cursor: pointer;
+  border-bottom: none;
+
+}
+
+  
+.conteneur{
+  
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  justify-content: center;
+  margin: 80px 20px 0px 80px;
+
+    
+     
+}
+.card {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #402811;
+  padding: 10px;
+  border-radius: 10px;
+  width: 380px; /* important avec grid */
+  height: 320px;
+       
+}
+.btn-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
