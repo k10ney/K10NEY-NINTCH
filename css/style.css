@@ -1,6 +1,7 @@
 body{
     padding: 0%;
     margin: 0%;
+    font-weight: bold;
 }
 #listeprincipale ul{
   margin: 0%; 
@@ -8,7 +9,7 @@ body{
   align-items: center;
   width: 100%;
   height: 25px; 
-  position: fixed;
+
   
 }
 #listeprincipale ul li{
@@ -17,6 +18,7 @@ align-items: center;
 list-style: none;
 float:right;
 padding:25px 25px 25px 25px ;
+font-size: 20px;
 
 }
 #listeprincipale ul li a{
@@ -31,15 +33,24 @@ padding: 18px 16px;
 color: black;
 
 }
-#listeprincipale ul li a :hover{
-  opacity: 0.5;
-  transform: scale(1.05);
-  transition: 0.6s ease-in-out;
+#listeprincipale ul li a:hover{
+  
+  transition: 1s;
+  transform: scale(1.2);
+cursor: pointer;
+color: aqua;
+  } 
+  
 
-}
 #titre{
 
   padding: 160px 160px 160px 160px ;
+  font-size: 50px;
+  font-family: satisfy,cursive;
+  font-weight: 400;
+
+  
+  
 }
 #logo{
   float: left;
@@ -49,18 +60,36 @@ color: black;
 }
 #listesecondaire  li{
   list-style: none;
-  display: flex;
+display: flex;
+align-items: center;
+list-style: none;
+float: right;
+padding:25px 25px 25px 25px ;
+font-size: 20px;
+  font-weight: 400;
+  font-size: 45px;
+    font-family: "PT Sans Narrow", sans-serif;
+background-color: black;
+border-radius: 200px;
+
 
 }
 #listesecondaire li a{
-  display: block;
+  display: flex;
 text-decoration: none;
 }
 #image{
  background: url(/images/kubra-gokkaya-0MQe9AJzdH8-unsplash.jpg) no-repeat fixed;
  background-size: cover;
+ width: 100%;
+ height: 1000px;
 
 }
+/* style des liste  */
+  
+
+
+
 
 
 
